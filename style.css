@@ -97,7 +97,7 @@ background-size: cover;
     text-align: center;
     position: absolute;
 
-    left: 180px;
+    left: 0px;
     
     margin-top: 222px;
     margin-bottom: 12px;
@@ -189,6 +189,7 @@ background-size: cover;
 
 .history{
     margin-top: 166px;
+    padding-bottom: 200px;
 }
 
 .history-title{
@@ -242,14 +243,66 @@ background-size: cover;
 .images-1{
     position: absolute;
     z-index: 999;
-    top: 0;
-    left: 0;
+    top: 54px;
+    left: 211px;
 }
 
 .images-2{
-    
+    position: absolute;
+    z-index: 0;
+    top: -92px;
+    left: 383px;
 }
 
-.images-2{
-    
+.images-3{
+    position: absolute;
+    z-index: 999;
+    top: 246px;
+    left: 481px;
+}
+
+.black-block{
+    background-image: url(black-bg.jpg);
+    padding: 80px 0;
+}
+
+.left-title{
+    color: #d67e34;
+    font-family: "Tinos", serif;
+    font-size: 52px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.left-text{
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+
+.right-btn{
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: background-color 0.2s linear;
+}
+
+.black-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dishes-title{
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 132px;
+}
+
+.dishes-title span{
+    color: #d67e34;;
 }
